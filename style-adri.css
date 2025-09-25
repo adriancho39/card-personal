@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cuerpo {
+    background-color: rgb(178, 123, 230);
+}
+
+.cabecera {}
+
+.principal {}
+
+.contenedor__tarjetas {}
+
+.tarjeta {}
+
+.tarjeta1 {}
+
+.tarjeta2 {}
+
+.tarjeta3 {}
+
+.tarjeta4 {}
+
+.tarjeta5 {}
+
+.titulo__tarjeta {}
+
+.contenido__tarjeta {}
+
+.Mercedes-Benz1 {
+    height: 200px;
+}
+
+.Mercedes-Benz2 {
+    height: 200px;
+}
+
+.Mercedes-Benz3 {
+    height: 200px;
+}
+
+.Mercedes-Benz4 {
+    height: 200px;
+}
+
+.Mercedes-Benz5 {
+    height: 200px;
+}
+
+.lateral {}
+
+.pie {}
