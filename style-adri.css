@@ -9,48 +9,60 @@
     background-color: rgb(178, 123, 230);
 }
 
-.cabecera {}
-
-.principal {}
-
-.contenedor__tarjetas {}
-
-.tarjeta {}
-
-.tarjeta1 {}
-
-.tarjeta2 {}
-
-.tarjeta3 {}
-
-.tarjeta4 {}
-
-.tarjeta5 {}
-
-.titulo__tarjeta {}
-
-.contenido__tarjeta {}
-
-.Mercedes-Benz1 {
-    height: 200px;
+.contenedor__tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    width: 80%;
+    margin: 40px auto;
 }
 
-.Mercedes-Benz2 {
-    height: 200px;
+
+.tarjeta1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
-.Mercedes-Benz3 {
-    height: 200px;
+.tarjeta2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
-.Mercedes-Benz4 {
-    height: 200px;
+.tarjeta3 {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    justify-self: center;
+    max-width: 300px;
 }
 
+.tarjeta4 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.tarjeta5 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+
+.tarjeta {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+    text-align: center;
+}
+
+
+.Mercedes-Benz1,
+.Mercedes-Benz2,
+.Mercedes-Benz3,
+.Mercedes-Benz4,
 .Mercedes-Benz5 {
     height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
 }
-
-.lateral {}
-
-.pie {}
